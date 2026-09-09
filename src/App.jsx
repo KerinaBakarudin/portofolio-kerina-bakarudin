@@ -8,6 +8,7 @@ import basarnas from './assets/basarnas.png';
 import healthyblood from './assets/healthyblood.png';
 import satgasppkpt from './assets/satgasppkpt.png';
 import smartdorm from './assets/smartdorm.png';
+import satgasppkptmobile from './assets/satgasppkpt-mobile.png';
 
 // --- ICONS ---
 const IconUser = () => (
@@ -143,7 +144,17 @@ const App = () => {
         link: "https://www.figma.com/proto/WALm2NaVJEA6hkLHKNuQE9/SmartDorm?node-id=90-437&p=f&t=UPadF4E1Y96Bo2K2-1&scaling=scale-down&content-scaling=fixed&page-id=90%3A436&starting-point-node-id=90%3A1785"
       },
     ],
-    "Web Development": [
+    "Web dan Mobile Development": [
+      {
+        name: "Satgas PPKPT Universitas Lampung",
+        desc: "Aplikasi mobile Satgas PPKPT Universitas Lampung untuk mendukung proses pelaporan dan pemantauan kasus kekerasan, dilengkapi fitur notifikasi, informasi edukasi, berita kegiatan, dan layanan Satgas.",
+        image: satgasppkptmobile,
+        link: "https://satgas-ppkpt-unila.web.app/",
+        demo: {
+          username: "mahasiswa@unila.ac.id",
+          password: "mhs123"
+        }
+      },
       {
         name: "SIAS Bapenda Lampung",
         desc: "SIAS Bapenda Lampung merupakan sistem informasi arsip surat internal yang dirancang untuk mendukung pengelolaan dokumen secara digital di lingkungan Bapenda Provinsi Lampung. Sistem ini memudahkan proses disposisi surat dari sub bagian umum ke berbagai bidang terkait secara lebih cepat, terstruktur, dan efisien.",
@@ -195,6 +206,7 @@ const App = () => {
         { name: "HTML", icon: "https://skillicons.dev/icons?i=html" },
         { name: "CSS", icon: "https://skillicons.dev/icons?i=css" },
         { name: "PHP", icon: "https://skillicons.dev/icons?i=php" }, 
+        { name: "Laravel", icon: "https://skillicons.dev/icons?i=laravel" },
         { name: "JavaScript", icon: "https://skillicons.dev/icons?i=js" },
         { name: "React.js", icon: "https://skillicons.dev/icons?i=react" },
         { name: "Node.js", icon: "https://skillicons.dev/icons?i=nodejs" },
@@ -212,7 +224,6 @@ const App = () => {
     },
     {
       category: "Design & Creative",
-      // PERBAIKAN: Menggunakan link gambar langsung untuk Canva, Corel, CapCut
       skills: [
         { name: "Figma", icon: "https://skillicons.dev/icons?i=figma" },
         { name: "Canva", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdaQ2XlVIZmlRLCqeJbgCZV9voCw53JozEWg&s" },
@@ -226,6 +237,7 @@ const App = () => {
         { name: "Google Cloud Platform", icon: "https://skillicons.dev/icons?i=gcp" },
         { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
         { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgres" },
+        { name: "Firebase", icon: "https://skillicons.dev/icons?i=firebase" },
       ]
     }
   ];
@@ -343,18 +355,6 @@ const App = () => {
 
         <div className="max-w-4xl mx-auto text-center px-6 relative z-10 flex flex-col items-center pt-10">
           
-          {/* Avatar with Glow */}
-          {/* <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-sky-400 to-blue-400 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-            <div className="relative w-32 h-32 bg-white rounded-full mb-8 border-4 border-white shadow-xl overflow-hidden">
-              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Kerina" alt="Avatar" className="w-full h-full object-cover" />
-            </div>
-          </div> */}
-
-          {/* <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-sky-100 bg-sky-50/50 backdrop-blur-sm text-sky-700 text-xs font-bold mb-8 shadow-sm">
-            <IconLight /> CS Student @ UNILA & Teaching Assistant
-          </div> */}
-          
           <h1 className="text-5xl md:text-6xl font-black mb-8 tracking-tighter leading-none text-slate-900">
             Halo, saya <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-500">Kerina Bakarudin</span>
           </h1>
@@ -367,7 +367,7 @@ const App = () => {
           </p>
           
           <p className="text-sm md:text-base text-slate-900 max-w-3xl leading-relaxed mb-12 font-normal">
-            Mahasiswa Ilmu Komputer yang berfokus pada pengembangan sistem informasi dan desain pengalaman pengguna.
+            Fresh Graduate Ilmu Komputer yang berfokus pada pengembangan sistem informasi dan desain pengalaman pengguna.
             Saya juga memiliki keterampilan di bidang desain grafis dan editing video, sehingga mampu menggabungkan aspek teknis dan kreatif dalam setiap karya yang saya buat.
           </p>
           
@@ -424,7 +424,7 @@ const App = () => {
                   </div>
                   <div>
                     <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1">Pendidikan</p>
-                    <p className="text-sm font-bold text-slate-800 leading-tight">Ilmu Komputer, Universitas Lampung (2022-sekarang)</p>
+                    <p className="text-sm font-bold text-slate-800 leading-tight">Ilmu Komputer, Universitas Lampung (2022-2026)</p>
                   </div>
                 </div>
                 
@@ -434,7 +434,7 @@ const App = () => {
                   </div>
                   <div>
                     <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1">IPK</p>
-                    <p className="text-xl font-black text-sky-600 leading-tight">3.77 <span className="text-[10px] text-slate-400 font-normal">/ 4.00</span></p>
+                    <p className="text-xl font-black text-sky-600 leading-tight">3.78 <span className="text-[10px] text-slate-400 font-normal">/ 4.00</span></p>
                   </div>
                 </div>
               </div>
@@ -444,7 +444,7 @@ const App = () => {
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-6 text-slate-600 leading-relaxed text-lg text-justify md:text-left">
                 <p>
-                  Halo! Saya <strong className="text-slate-800">Kerina Bakarudin</strong>, mahasiswa Ilmu Komputer semester akhir di Universitas Lampung yang berfokus pada <span className="text-sky-600 font-bold">pengembangan web, aplikasi mobile,</span> serta <span className="text-sky-600 font-bold">desain UI/UX</span>. Saya memiliki ketertarikan mendalam dalam memahami kebutuhan pengguna untuk menciptakan <span className="text-sky-600 font-bold">solusi digital</span> yang tepat guna dan estetik.
+                  Halo! Saya <strong className="text-slate-800">Kerina Bakarudin</strong>, fresh graduate Ilmu Komputer Universitas Lampung yang berfokus pada <span className="text-sky-600 font-bold">pengembangan web, aplikasi mobile,</span> serta <span className="text-sky-600 font-bold">desain UI/UX</span>. Saya memiliki ketertarikan mendalam dalam memahami kebutuhan pengguna untuk menciptakan <span className="text-sky-600 font-bold">solusi digital</span> yang tepat guna dan estetik.
                 </p>
                 <p>
                   Selain itu, saya juga aktif mengeksplorasi bidang kreatif seperti 
@@ -457,7 +457,7 @@ const App = () => {
               {/* Link Buttons dengan Layout Rata */}
               <div className="flex flex-wrap gap-4 pt-6 border-t border-slate-100 justify-center md:justify-start">
                 <a 
-                  href="https://drive.google.com/file/d/18c1-D-DMDdWcPukkwr33fDm4ytAu9j-X/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/16m4l5E2LbAQ9m6otYZKkD7LVv-anuOKR/view?usp=sharing" 
                   className="group inline-flex items-center gap-3 px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold text-sm shadow-xl shadow-slate-200 hover:bg-sky-600 transition-all hover:-translate-y-1 active:scale-95"
                 >
                   <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2.5" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
@@ -503,10 +503,10 @@ const App = () => {
           type: "modal" 
         },
         { 
-          title: "Web Development", 
+          title: "Web dan Mobile Development", 
           color: "from-blue-100 to-indigo-100", 
           icon: "💻",
-          description: "Pengembangan website yang berfokus pada fungsionalitas, performa, serta memberikan pengalaman pengguna yang efisien.",
+          description: "Pengembangan sistem informasi berbasis web dan mobile yang berfokus pada fungsionalitas, performa, serta memberikan pengalaman pengguna yang efisien.",
           type: "modal" 
         },
         { 
