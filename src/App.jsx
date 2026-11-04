@@ -174,7 +174,7 @@ const App = () => {
       },
       {
         name: "Protextify",
-        desc: "Protextify adalah platform virtual class yang dikembangkan dalam program pendanaan PKM Kewirausahaan 2025, dengan fokus pada pencegahan plagiarisme. Platform ini membantu pengguna menghasilkan tulisan yang lebih orisinal melalui fitur pendukung yang mendorong integritas dan kualitas dalam proses penulisan.",
+        desc: "Protextify adalah platform virtual class yang dikembangkan dalam program pendanaan PKM Kewirausahaan 2025, dengan fokus pada pencegahan plagiarisme. Platform ini membantu pengguna menghasilkan tulisan yang lebih orisinal melalui fitur pendukung cek plagiarisme berbasis AI, citation generator, editor penulisan disable copy paste yang mendorong integritas dan kualitas dalam proses penulisan.",
         image: protextify,
         link: "https://youtu.be/PUnnnvimZa8",
         // demo: {
