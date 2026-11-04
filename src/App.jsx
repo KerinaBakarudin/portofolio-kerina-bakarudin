@@ -3,12 +3,13 @@ import fotoProfil from './assets/foto_pkm.jpg';
 import siasBapenda from './assets/siasbapenda.png';
 import lampungExplore from './assets/lampungexplore.png';
 import tokoKue from './assets/tokokue.png';
-import protextify from './assets/protextify.png';
+import protextify from './assets/protextify-web.png';
 import basarnas from './assets/basarnas.png';
 import healthyblood from './assets/healthyblood.png';
 import satgasppkpt from './assets/satgasppkpt.png';
 import smartdorm from './assets/smartdorm.png';
 import satgasppkptmobile from './assets/satgasppkpt-mobile.png';
+import bimbelintel from './assets/bimbelintel.png';
 
 // --- ICONS ---
 const IconUser = () => (
@@ -146,6 +147,12 @@ const App = () => {
     ],
     "Web dan Mobile Development": [
       {
+        name: "Bimbel Insan Teladan Lampung",
+        desc: "Platform web Bimbel Insan Teladan merupakan sistem pembelajaran digital terintegrasi yang menyediakan layanan tryout online berbasis Computer-Based Test (CBT). Platform ini memungkinkan siswa untuk menjelajahi dan membeli paket tryout melalui payment gateway, mengerjakan ujian secara online, mengakses pembahasan soal, serta mengunduh modul pendalaman materi.",
+        image: bimbelintel,
+        link: "https://bimbelinsanteladan.com/",
+      },
+      {
         name: "Satgas PPKPT Universitas Lampung",
         desc: "Aplikasi mobile Satgas PPKPT Universitas Lampung untuk mendukung proses pelaporan dan pemantauan kasus kekerasan, dilengkapi fitur notifikasi, informasi edukasi, berita kegiatan, dan layanan Satgas.",
         image: satgasppkptmobile,
@@ -169,11 +176,11 @@ const App = () => {
         name: "Protextify",
         desc: "Protextify adalah platform virtual class yang dikembangkan dalam program pendanaan PKM Kewirausahaan 2025, dengan fokus pada pencegahan plagiarisme. Platform ini membantu pengguna menghasilkan tulisan yang lebih orisinal melalui fitur pendukung yang mendorong integritas dan kualitas dalam proses penulisan.",
         image: protextify,
-        link: "https://protextify-frontend.vercel.app/",
-        demo: {
-          username: "demo@gmail.com",
-          password: "123"
-        }
+        link: "https://youtu.be/PUnnnvimZa8",
+        // demo: {
+        //   username: "demo@gmail.com",
+        //   password: "123"
+        // }
       },
       {
         name: "Toko Kue Ibu Anin",
